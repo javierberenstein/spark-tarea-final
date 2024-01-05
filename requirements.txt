@@ -1,0 +1,6 @@
+
+pytest==7.4.3
+loguru==0.7.1
+
+# el paquete pyspark no es necesario para ejecutar en Databricks
+pyspark==3.5.0
