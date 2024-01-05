@@ -32,7 +32,8 @@ class FlujoDiario:
             # Procesamiento diario: crea un nuevo objeto motor de ingesta con self.config, invoca a ingesta_fichero,
             # después a las funciones que añaden columnas adicionales, y finalmente guarda el DF en la tabla indicada en
             # self.config["output_table"] y con los ficheros físicos en self.config["output_path"],
-            # siempre particionando por FlightDate. Tendrás que usar .write.option("path", ...).saveAsTable(...)
+            # siempre particionando por FlightDate. Tendrás que usar .write.option("path", ...).saveAsTable(...) para
+            # indicar que queremos crear una tabla externa en el momento de guardar.
             # Conviene cachear el DF flights_df así como utilizar el número de particiones indicado en
             # config["output_partitions"]
 
