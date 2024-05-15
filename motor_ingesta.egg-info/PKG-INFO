@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: motor-ingesta
+Version: 0.1.0
+Summary: Motor de ingesta para el curso de Spark
+Home-page: https://github.com/javierberenstein
+Author: Javier Berenstein Rey
+Author-email: javier.berenstein@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Motor de ingesta para el curso de Spark
